@@ -1,0 +1,19 @@
+{
+  "name": "devcommunity",
+  "version": "1.0.0",
+  "description": "I am going to build backend ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "nodemon src/app.js",
+    "phani": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HRA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  }
+}
